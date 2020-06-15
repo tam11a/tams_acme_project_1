@@ -1,0 +1,166 @@
+body{
+	background-color: #161616;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: auto;
+	font-family: showcard gothic regular;
+}
+header{
+	background-color: #161616;
+	color: white;
+	padding: 10px;
+	min-height: 70px;
+	border-bottom: #000 5px solid;
+}
+.container{
+	width: 80%;
+	margin: auto;
+	padding-top: 10px;
+	overflow: hidden;
+}
+header .container #branding{
+	padding-left: 70px;
+	float:left;
+}
+#branding .highlight{
+	color: #84603E;
+}
+
+header nav{
+	float: right;
+	margin-top: 30px;
+	padding-right: 110px;
+}
+nav ul{
+	margin:0;
+	padding:0;
+}
+nav li{
+	display: inline;
+	margin-left: 30px;
+}
+body #showcase{
+	background-image: url('showpic.jpg');
+	background-repeat: no-repeat;
+	background-size: 1500px;
+	background-position-x: center;
+	background-position-y: -100px;
+	min-height: 400px;
+	text-align: center;
+	color: #212121;
+	text-shadow: 0px 0px 5px burlywood, 0px 0px 5px burlywood;
+}
+#showcase h1{
+	color: #fff;
+	text-shadow: 0px 0px 5px #161616, 0px 0px 5px #161616;
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+#subscribe{
+	background-color: #fff;
+	border-top: #000 5px solid;
+	border-bottom: #000 5px solid;
+	overflow: hidden;
+	padding: 10px;
+	padding-bottom: 15px;
+}
+#subscribe h1{
+	float: left;
+	margin: 0;
+	padding: 10px;
+}
+#subscribe form{
+	float: right;
+	margin: 0;
+	padding: 10px 50px 5px 0;
+}
+#subscribe form input{
+	height: 32px;
+	width: 200px;
+	border: #161616 2px solid;
+	border-radius: 5px;
+}
+#subscribe form input:hover{
+	height: 32px;
+	width: 200px;
+	border: #161616 2px solid;
+	border-radius: 5px;
+	box-shadow: 1px 1px 10px rgb(122, 122, 122);
+}
+#subscribe form .button_s{
+	background-color: gray;
+	border: none;
+	border-radius: 5px;
+	height: 40px;
+	font-weight: bold;
+	color: #212121;
+}
+#subscribe form .button_s:hover{
+	background-color: gray;
+	border: none;
+	border-radius: 5px;
+	height: 40px;
+	font-weight: bold;
+	color: #212121;
+	box-shadow: 1px 1px 10px rgb(122, 122, 122);
+}
+#boxs{
+	margin: 0;
+	margin-bottom: 10px;
+}
+#boxs .box{
+	float: left;
+	height: 360px;
+	width: 340px;
+	margin: 5px;
+	border: #000 3px solid;
+	border-radius: 10px;
+	background-color: #4D4C3F;
+	overflow: hidden;
+}
+#boxs .box:hover{
+	background-color: #818071;
+	height: 365px;
+	width: 345px;
+	margin: 0;
+	margin-left: 5px;
+	box-shadow: 1px 1px 10px rgb(122, 122, 122);
+}
+#boxs .box img{
+	padding-top: 10px;
+	
+}
+#boxs .box h3{
+	font-size: 25px;
+	color: rgb(170, 170, 170);
+	background-color: black;
+}
+#boxs .box p{
+	text-align: justify;
+	padding: 0 10px 0 10px;
+}
+footer{
+	text-shadow: 0px 0px 2px #fff;
+	text-align: center;
+	background-color: #000;
+	background-image: url('bye\ bye.jpg');
+	background-repeat: no-repeat;
+	background-size: 1500px;
+	background-position-x: center;
+	background-position-y: 100px;
+	min-height: 800px;
+}
+footer p{
+	margin: 0;
+	padding: 70px 0 0 0;
+}
+footer p:hover{
+	margin: 0;
+	padding: 55px 0 0 0;
+	font-size: 25px;
+	font-weight: ;
+	color: rgba(255, 255, 255, 0.664);
+	text-shadow: 0px 0px;
+}
